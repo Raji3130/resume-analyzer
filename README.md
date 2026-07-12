@@ -1,4 +1,4 @@
-# 📄 Smart Resume Analyzer & Job-Fit Predictor
+#  Smart Resume Analyzer & Job-Fit Predictor
 
 An NLP/ML tool that scores how well a resume matches a job description,
 highlights missing skills, and suggests concrete improvements — the kind
@@ -9,14 +9,14 @@ open-source.
 
 ---
 
-## 🎯 Problem
+##  Problem
 
 Job seekers rarely know *why* their resume doesn't get a callback, and
 manually comparing a resume against a job description for keyword/skill
 gaps is tedious. This tool automates that comparison and gives an
 actionable, ranked list of what to fix.
 
-## ✨ Features
+##  Features
 
 - **Multi-format resume parsing** — PDF, DOCX, and TXT
 - **Job-fit score (0-100%)** combining semantic text similarity + explicit skill overlap
@@ -24,7 +24,7 @@ actionable, ranked list of what to fix.
 - **Actionable suggestions** — rule-based recommendations tailored to the gap
 - **Zero external API dependency** — runs fully offline/locally, no API keys needed
 
-## 🧠 How it works
+##  How it works
 
 ```
 Resume (PDF/DOCX/TXT) ──┐
@@ -55,7 +55,7 @@ keeps the tool dependency-light and fully offline, at the cost of not
 catching skill *synonyms* it doesn't already know about. See
 [Roadmap](#-roadmap) for the planned embeddings upgrade.
 
-## 📊 Example
+##  Example
 
 Using the sample resume/JD in `data/`:
 
@@ -65,7 +65,7 @@ Using the sample resume/JD in `data/`:
 | Matched Skills | `aws`, `machine learning`, `python`, `sql` |
 | Top Missing Skills | `docker`, `kubernetes`, `mlops`, `pytorch`, `tensorflow` |
 
-## 🚀 Running locally
+##  Running locally
 
 ```bash
 git clone https://github.com/<your-username>/smart-resume-analyzer.git
@@ -78,20 +78,20 @@ Then open the local URL Streamlit prints (usually `http://localhost:8501`),
 upload a resume from `data/sample_resume.txt` (or your own), paste the
 sample JD from `data/sample_jd.txt`, and click **Analyze Fit**.
 
-## 🧪 Running tests
+##  Running tests
 
 ```bash
 python -m pytest tests/ -v
 ```
 
-## 🌐 Deployment
+##  Deployment
 
 This app is a single Streamlit file with no external API keys, so it
 deploys directly to:
 - **[Streamlit Community Cloud](https://streamlit.io/cloud)** (free) — connect your GitHub repo, point it at `app.py`
 - **[Hugging Face Spaces](https://huggingface.co/spaces)** (free) — select the Streamlit SDK
 
-## 🗂️ Project structure
+##  Project structure
 
 ```
 smart-resume-analyzer/
@@ -107,20 +107,9 @@ smart-resume-analyzer/
 │   ├── sample_resume.txt
 │   └── sample_jd.txt
 └── requirements.txt
+
 ```
-
-## 🛣️ Roadmap
-
-- [ ] **Phase 2 — Semantic embeddings**: swap TF-IDF for `sentence-transformers`
-      (e.g. `all-MiniLM-L6-v2`) for deeper semantic matching beyond exact keywords
-- [ ] **LLM-powered suggestions**: replace rule-based suggestions with
-      personalized rewrites via an open-source LLM (e.g. through Groq's free API)
-- [ ] **Multi-JD comparison**: rank a single resume against multiple job
-      postings to find the best-fit roles
-- [ ] **Resume section scoring**: separate scores per section (Experience,
-      Skills, Education) instead of one blended score
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 Python · Streamlit · scikit-learn (TF-IDF) · pdfplumber · python-docx
 
