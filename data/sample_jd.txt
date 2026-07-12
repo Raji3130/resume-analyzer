@@ -1,0 +1,20 @@
+Data Scientist - Machine Learning Platform Team
+
+We're looking for a Data Scientist to join our ML platform team. You'll
+work on building production-grade models and the infrastructure to
+support them.
+
+Requirements:
+- Strong programming skills in Python and SQL
+- Hands-on experience with Machine Learning and Deep Learning
+  (TensorFlow or PyTorch)
+- Experience with cloud platforms, ideally AWS
+- Familiarity with Docker and MLOps practices for model deployment
+- Experience with NLP or LLMs is a strong plus
+- Comfortable working with stakeholders across product and engineering
+- Strong communication and stakeholder management skills
+
+Nice to have:
+- Experience with Kubernetes
+- Familiarity with Airflow or similar orchestration tools
+- Exposure to RAG-based systems or LangChain

@@ -1,0 +1,30 @@
+Anika Reddy
+Data Scientist | anika.reddy@email.com | Hyderabad, India
+
+SUMMARY
+Data Scientist with 3 years of experience building and deploying machine
+learning models for e-commerce and fintech clients.
+
+SKILLS
+Python, SQL, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn,
+Tableau, Git, Basic AWS, Machine Learning, Statistics, A/B Testing
+
+EXPERIENCE
+Data Scientist, FinEdge Analytics (2023 - Present)
+- Built a churn prediction model using XGBoost, improving retention
+  campaign targeting by 18%.
+- Designed A/B tests for pricing experiments across 5 product lines.
+- Created Tableau dashboards used weekly by the leadership team.
+
+Junior Data Analyst, RetailWorks (2021 - 2023)
+- Automated weekly reporting pipelines using Python and SQL, saving
+  ~6 hours/week of manual work.
+- Performed exploratory data analysis on customer segmentation data.
+
+EDUCATION
+B.Tech in Computer Science, JNTU Hyderabad (2021)
+
+PROJECTS
+- House Price Prediction: Regression model on scraped real estate data,
+  deployed with Streamlit.
+- Customer Segmentation: K-means clustering on retail transaction data.
