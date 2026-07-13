@@ -12,11 +12,11 @@ from src.matcher import analyze
 
 st.set_page_config(
     page_title="Smart Resume Analyzer",
-    page_icon="📄",
+    page_icon="",
     layout="wide",
 )
 
-st.title("📄 Smart Resume Analyzer & Job-Fit Predictor")
+st.title("Smart Resume Analyzer & Job-Fit Predictor")
 st.caption(
     "Upload a resume and paste a job description to get a fit score, "
     "skill-gap analysis, and improvement suggestions."
@@ -34,7 +34,7 @@ with col2:
     st.subheader("2. Paste the job description")
     jd_text_input = st.text_area("Job description", height=250)
 
-analyze_clicked = st.button("🔍 Analyze Fit", type="primary")
+analyze_clicked = st.button(" Analyze Fit", type="primary")
 
 if analyze_clicked:
     if not uploaded_file:
@@ -77,7 +77,7 @@ if analyze_clicked:
 
                     st.divider()
                     tab1, tab2, tab3 = st.tabs(
-                        ["✅ Matched Skills", "❌ Missing Skills", "💡 Suggestions"]
+                        ["Matched Skills", "Missing Skills", "Suggestions"]
                     )
 
                     with tab1:
@@ -108,7 +108,7 @@ if analyze_clicked:
                 st.error(str(e))
 
 st.divider()
-with st.expander("ℹ️ How the score is calculated"):
+with st.expander("How the score is calculated"):
     st.markdown(
         """
         The final score blends two signals:
