@@ -5,7 +5,7 @@ highlights missing skills, and suggests concrete improvements — the kind
 of thing an ATS (Applicant Tracking System) does, but transparent and
 open-source.
 
-**[Live Demo](#deployment)** • **[How it works](#-how-it-works)** • **[Run locally](#-running-locally)**
+**[Live Demo]  https://resume-analyzer-5rnpnfdnpc2cdnhiofcoxr.streamlit.app/ • **[How it works]** • **[Run locally]**
 
 ---
 
